@@ -1,0 +1,259 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <title>Юнармия - Бондюжская школа</title>
+    <meta charset="utf-8">
+    <style>
+        * {
+            margin: 0;
+            padding: 0;
+            box-sizing: border-box;
+        }
+        body {
+            font-family: 'Segoe UI', Arial, sans-serif;
+            background: #f5f5f5;
+            color: #333;
+        }
+        .header {
+            background: #003366;
+            color: white;
+            padding: 25px;
+            text-align: center;
+        }
+        .header h1 {
+            font-size: 28px;
+        }
+        .header p {
+            font-size: 16px;
+            margin-top: 10px;
+            opacity: 0.9;
+        }
+        .menu {
+            background: #004080;
+            padding: 12px;
+            text-align: center;
+            position: sticky;
+            top: 0;
+        }
+        .menu a {
+            color: white;
+            text-decoration: none;
+            margin: 0 8px;
+            font-size: 14px;
+            padding: 8px 10px;
+            display: inline-block;
+            transition: 0.3s;
+        }
+        .menu a:hover {
+            background: #ffcc00;
+            color: #003366;
+            border-radius: 5px;
+        }
+        .container {
+            max-width: 1100px;
+            margin: 30px auto;
+            padding: 0 20px;
+        }
+        h2 {
+            color: #003366;
+            margin-bottom: 20px;
+            border-bottom: 3px solid #ffcc00;
+            display: inline-block;
+            padding-bottom: 5px;
+        }
+        .hero-block {
+            background: linear-gradient(135deg, #003366 0%, #0055a0 100%);
+            color: white;
+            padding: 40px;
+            border-radius: 15px;
+            margin-bottom: 30px;
+            text-align: center;
+        }
+        .hero-block h3 {
+            font-size: 28px;
+            margin-bottom: 15px;
+        }
+        .hero-block p {
+            font-size: 18px;
+            opacity: 0.95;
+        }
+        .info-card {
+            background: white;
+            border-radius: 12px;
+            padding: 25px;
+            margin-bottom: 25px;
+            box-shadow: 0 2px 8px rgba(0,0,0,0.1);
+        }
+        .info-card h3 {
+            color: #003366;
+            margin-bottom: 15px;
+            font-size: 22px;
+        }
+        .info-card p {
+            line-height: 1.6;
+            margin-bottom: 10px;
+        }
+        .two-columns {
+            display: flex;
+            gap: 25px;
+            margin-bottom: 25px;
+            flex-wrap: wrap;
+        }
+        .column {
+            flex: 1;
+            background: white;
+            border-radius: 12px;
+            padding: 25px;
+            box-shadow: 0 2px 8px rgba(0,0,0,0.1);
+            min-width: 250px;
+        }
+        .column h3 {
+            color: #003366;
+            margin-bottom: 15px;
+            border-left: 4px solid #ffcc00;
+            padding-left: 12px;
+        }
+        .column ul {
+            list-style: none;
+            padding-left: 0;
+        }
+        .column li {
+            padding: 8px 0;
+            padding-left: 25px;
+            position: relative;
+        }
+        .column li:before {
+            content: "⭐";
+            position: absolute;
+            left: 0;
+            color: #ffcc00;
+        }
+        .gallery-medium {
+            display: flex;
+            flex-wrap: wrap;
+            gap: 15px;
+            margin-top: 15px;
+            align-items: flex-start;
+        }
+        .gallery-medium img {
+            width: 180px;
+            height: auto;
+            border-radius: 8px;
+            cursor: pointer;
+            transition: transform 0.3s;
+            box-shadow: 0 1px 3px rgba(0,0,0,0.2);
+        }
+        .gallery-medium img:hover {
+            transform: scale(1.05);
+        }
+        .footer {
+            background: #003366;
+            color: white;
+            text-align: center;
+            padding: 20px;
+            margin-top: 40px;
+        }
+        .emblem {
+            font-size: 64px;
+            margin-bottom: 15px;
+        }
+        .hero-name {
+            color: #ffcc00;
+            font-weight: bold;
+        }
+    </style>
+</head>
+<body>
+
+<div class="header">
+    <h1>Структурное подразделение «Бондюжская школа»</h1>
+    <p>МАОУ «Чердынская средняя общеобразовательная школа им. А.И. Спирина»</p>
+</div>
+
+<div class="menu">
+    <a href="index.html">Главная</a>
+    <a href="about.html">О школе</a>
+    <a href="teachers.html">Преподаватели</a>
+    <a href="preschool.html">Дошкольная группа</a>
+    <a href="yunarmia.html">Юнармия</a>
+    <a href="orlyata.html">Орлята России</a>
+    <a href="contacts.html">Обратная связь</a>
+</div>
+
+<div class="container">
+    <div class="hero-block">
+        <div class="emblem">⭐</div>
+        <h3>Всероссийское детско-юношеское военно-патриотическое общественное движение «ЮНАРМИЯ»</h3>
+        <p>Отряд «Звезда» имени Ляшкова Юрия Николаевича</p>
+        <p style="font-size: 16px; margin-top: 10px;">Служение Отечеству — наша главная миссия</p>
+    </div>
+
+    <div class="info-card">
+        <h3>Наш отряд</h3>
+        <p>Отряд Юнармии в Бондюжской школе был создан <strong>25 октября 2019 года</strong>. Наш отряд носит имя <strong>Ляшкова Юрия Николаевича</strong> и называется <strong>«Звезда»</strong>.</p>
+        <p>На сегодняшний день в отряде состоят <strong>10 человек</strong> — активных, целеустремлённых и патриотичных ребят, которые готовы вносить вклад в развитие нашего села и страны.</p>
+        <p style="margin-top: 10px;">Руководитель отряда — <strong>Стародумова Елена Александровна</strong>.</p>
+    </div>
+
+    <div class="info-card">
+        <h3>Лучший юнармеец отряда</h3>
+        <p><strong class="hero-name">Леся Баранникова</strong> — самый результативный юнармеец за всю историю отряда. За время участия в движении Леся завоевала огромное количество медалей и наград.</p>
+        <p><strong>Достижения Леси:</strong></p>
+        <ul style="margin: 10px 0 0 25px;">
+            <li>🏆 Кубок за 2 место в конкурсе «Призывник года — 2024»</li>
+            <li>🎖 Знак «Юнармейская доблесть» 3 степени</li>
+        </ul>
+        
+        <div class="gallery-medium">
+            <img src="zn.jpg" alt="Знак юнармейской доблести 1" onerror="this.style.display='none'">
+            <img src="zn2.jpg" alt="Знак юнармейской доблести 2" onerror="this.style.display='none'">
+        </div>
+    </div>
+
+    <div class="two-columns">
+        <div class="column">
+            <h3>Цели и задачи движения</h3>
+            <ul>
+                <li>Воспитание патриотизма и любви к Родине</li>
+                <li>Изучение истории России и её воинских традиций</li>
+                <li>Физическая и военно-прикладная подготовка</li>
+                <li>Волонтёрская деятельность и помощь ветеранам</li>
+                <li>Участие в военно-спортивных играх и соревнованиях</li>
+                <li>Сохранение памяти о героях войны</li>
+            </ul>
+        </div>
+        <div class="column">
+            <h3>Наши достижения и деятельность</h3>
+            <ul>
+                <li>🏆 Победители и призёры военно-спортивной игры «Зарница»</li>
+                <li>🎯 Участие в различных районных юнармейских мероприятиях</li>
+                <li>🌿 Облагораживание и уход за памятниками</li>
+                <li>📜 Множество грамот и благодарностей</li>
+            </ul>
+        </div>
+    </div>
+
+    <div class="info-card">
+        <h3>Наша деятельность</h3>
+        <p>Юнармейцы нашей школы активно участвуют в жизни района и страны. Мы гордимся тем, что вносим вклад в сохранение памяти о героях и помогаем делать наше село лучше.</p>
+        <ul style="margin-top: 15px; padding-left: 25px;">
+            <li>✅ Участие в военно-спортивных соревнованиях</li>
+            <li>✅ Несение Вахты памяти у памятников</li>
+            <li>✅ Благоустройство мемориалов и памятных мест</li>
+            <li>✅ Встречи с ветеранами и уроки мужества</li>
+        </ul>
+    </div>
+
+    <div class="info-card">
+        <h3>Как вступить в Юнармию?</h3>
+        <p>Если вы хотите стать частью патриотического движения, обращайтесь к руководителю отряда. Вас ждёт интересная жизнь, полная событий!</p>
+    </div>
+</div>
+
+<div class="footer">
+    <p>© 2026 Структурное подразделение «Бондюжская школа» МАОУ «Чердынская СОШ им. А.И. Спирина»</p>
+    <p style="margin-top: 10px; font-size: 14px;">Адрес: Пермский край, Чердынский район, с. Бондюг, ул. Пенягина, д. 15 | Телефон: 8 (34240) 2-94-85</p>
+</div>
+
+</body>
+</html>
